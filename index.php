@@ -20,10 +20,10 @@
     <div class="navbar">
 		<nav>
 			<ul>
-				<li id="leftbc"><a class="active" href="index.html">Homepage</a></li>
-				<li><a href="page2.html">About XamJump</a></li>
-				<li><a href="page3.html">Gallery</a></li>
-                <li><a href="page4.html">FAQ</a></li>
+				<li id="leftbc"><a class="active" href="index.php">Homepage</a></li>
+				<li><a href="page2.php">About XamJump</a></li>
+				<li><a href="page3.php">Gallery</a></li>
+                		<li><a href="page4.php">FAQ</a></li>
 			</ul>
 		</nav>
         
