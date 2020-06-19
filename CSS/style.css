@@ -1,0 +1,150 @@
+body  {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkorange;
+}
+
+#round-button {
+	width: 25%;
+    margin-left: 45%;
+    margin-top: 20px;
+    position: static;
+    overflow: hidden;
+}
+#round-button-circle {
+	width: 50%;
+	height:0;
+	padding-bottom: 50%;
+    border-radius:50%;
+    overflow:hidden;
+    
+}
+
+#round-button a {
+    display:block;
+	float:clear;
+	width:100%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:0;
+}
+
+#indexpic {
+    display: block;
+	margin: auto;
+	width: 680px;
+}
+
+#page2pic {
+    display: block;
+	margin: auto;
+	width: 680px;
+}
+
+.picture {
+    height: 180px;
+}
+
+.navbar {
+	margin-left: 28%;
+}
+
+nav {
+	max-height: 900px;
+	min-width: 400px;
+	width: 43.1%;
+	margin: 0 0% 0 10%;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.iframe {
+	display: block;
+	margin: auto;
+	width: 854px;
+}
+
+.divtext {
+    display: block;
+	margin: auto;
+	width: 680px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.divgallery {
+    display: block;
+	margin: auto;
+	width: 575px;
+}
+
+.text {
+    color: white;
+    font-family: fantasy;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    padding: 14px 12px;
+    text-decoration: none;
+	margin-right: 20px;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+li a.active {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid orange; /*border 1*/
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid green; /*border 2*/
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unmute{
+    background-image: url(../images/unmute.png);
+    background-size: cover;
+    width:35px;
+    height:35px;
+    right: 0px;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
